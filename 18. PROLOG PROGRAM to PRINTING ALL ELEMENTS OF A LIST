@@ -1,0 +1,5 @@
+# MLA0102-ARTIFICIAL-INTELLEGENCE
+
+
+printlist([]).
+printlist([X|List]) :- write(X),nl, printlist(List).
